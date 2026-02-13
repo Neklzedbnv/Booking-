@@ -266,3 +266,4 @@ func (h *PackageHandler) DetachPackageFromRoom(w http.ResponseWriter, r *http.Re
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(map[string]string{"message": "package detached from room successfully"})
 }
+//nur
