@@ -77,3 +77,4 @@ func (s *PackageService) CalculatePackagePrice(packageIDs []int) (float64, error
 
 	return total, nil
 }
+//nur
