@@ -176,3 +176,4 @@ func (r *PackageRepo) DetachPackageFromRoom(roomID int64, packageID int) error {
 	_, err := r.db.Exec(query, roomID, packageID)
 	return err
 }
+//nur
