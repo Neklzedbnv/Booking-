@@ -75,3 +75,4 @@ func (s *RoomService) CheckAvailability(checkIn, checkOut time.Time, capacity *i
 
 	return s.repo.GetAvailableRooms(checkIn, checkOut, filters, args)
 }
+//nur
